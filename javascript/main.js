@@ -1,4 +1,6 @@
+// Get The Paragraph
 const greetingParagpah = document.querySelector("p.greeting");
+// Get The Content Of The Paragraph
 const greetingParagpahArray = greetingParagpah.textContent.trim().split(" ");
 
 greetingParagpah.textContent = "";
