@@ -23,3 +23,7 @@ function createElement(html) {
   template.innerHTML = html;
   return template.content.firstElementChild;
 }
+
+// Set The Year In The Footer
+const yearHolder = document.getElementById("year");
+yearHolder.textContent = new Date().getFullYear();
